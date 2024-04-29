@@ -8,7 +8,6 @@ export const metadata = {
 
 export async function getMovie(id: string) {
     console.log(`Fetching : ${Date.now()}`)
-    await new Promise((resolve) => setTimeout(resolve, 1000));
     const response = await fetch(`${API_URL}/${id}`);
     return response.json()
 }

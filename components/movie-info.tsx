@@ -1,5 +1,5 @@
-import {API_URL} from "../app/(home)/page";
 import styles from './movie-info.module.css'
+import {API_URL} from "../constant";
 
 export const metadata = {
     title: 'Movie Info',
